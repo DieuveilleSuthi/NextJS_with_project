@@ -1,0 +1,36 @@
+      .data
+a:    .int 5
+str:	.asciz "<%c>\n"
+alpha:.asciz "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	.text
+	.global main
+
+
+
+
+     .text
+	global main
+
+
+main:	
+	pushl %ebp
+	movl %esp, %ebp
+
+
+
+ 	call ptinf()
+
+	pushl %ebp
+	movl %esp,           %ebp
+	movl $alpha,       %edx
+	pushl (%edx)
+	pushl $str
+	call printf
+	addl $8, 		   %esp
+	popl %ebp
+	ret
+
+
+/*compilation sur la ligne de commande:
+gcc -no-pir    -g 32
+./a.out*\
