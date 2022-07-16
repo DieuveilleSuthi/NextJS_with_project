@@ -26,31 +26,34 @@ header{
   justify-content: space-between;
   align-items: center;
  /* background-color: antiquewhite;*/
- background-color: #f1f1f1;
+ background:  #667eaa ;
+ color: white;
 }
 .nav__menu-bar {
   display: flex;
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
+  text-align: left;
 }
 .nav__menu-bar div{
   width: 40px;
   height: 6px;
-  background-color: black;
+  background-color:white;
+
   border-radius: 2px;
 }
 .nav__menu-list {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 60px;
+  top: 66px;
   width: 200px;
   row-gap: 24px;
   padding: 24px 16px;
   right: -288px;
   min-height: calc(100vh - 60px);
-  background-color: #eee;
+  background:  #667eaa ;
   transition: all 0.3s;
 }
 .nav__menu-list.active{
@@ -91,9 +94,9 @@ header{
     width: 0%;
     bottom: -16px;
     left: 0;
-    height: 6px;
+    height: 1px;
     transition: all 0.2s;
-    background-color: black;
+    background-color: white;
   }
   .nav__link:hover::before,
   .nav__link.active::before
@@ -101,3 +104,14 @@ header{
     width: 100%;
   }
 }
+.footer {
+  background-color:#667eaa ;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 15px;
+  text-align: center;
+ }
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;

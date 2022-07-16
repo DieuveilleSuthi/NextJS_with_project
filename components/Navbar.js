@@ -34,7 +34,7 @@ const Navbar = () => {
             <nav className="nav">
                 <Link href={"/"}>
                 <a onClick={()=>setActiveIdx(0)}>
-                    <h1 className="logo">Suthi</h1>
+                    <h1 className="logo">DieuveilleMPOUNKOUO</h1>
                 </a>
                 </Link>
 
