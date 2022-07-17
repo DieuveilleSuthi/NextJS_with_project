@@ -115,3 +115,69 @@ header{
  @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.img1{
+
+  width: 300px;
+  height: 10px;
+  float: right;
+}
+.bloc1 {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.text{
+  color: #667eaa;
+  font-weight: bold;
+  font-size: 30px;
+}
+.simg1{
+  width: 80px;
+  height: 80px;
+}
+/*.simg2{
+  width: 80px;
+  height: 80px;
+}
+.simg3{
+  width: 80px;
+  height: 80px;
+}
+.simg4{
+  width: 80px;
+  height: 80px;
+}
+.simg5{
+  width: 80px;
+  height: 80px;
+}
+.simg1{
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+.bloc2{
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+.bloc2{
+  box-shadow: 5px;
+}
+*/
