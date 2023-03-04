@@ -4,7 +4,6 @@ const Skills = () => {
     return (
         <div>
         
-            // my sk
             <h1> My Skills</h1>
         </div>
     )
